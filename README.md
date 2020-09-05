@@ -9,7 +9,7 @@ run ->  git push heroku master // sobe o branch master para o heroku
 run -> heroku logs --tail // verifica logs de erro
 run -> npm install serve // normalmente quando acontece erro h10 é a falta desse servidor
 // mudar no package json o start da aplicação para "serve -s build"
-run -> git add * | git commit -m "msg" | git push heroku master // realiza commit no git e heroku
+run -> git add * | git commit -m "msg" | git push heroku master // realiza commit no heroku
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
